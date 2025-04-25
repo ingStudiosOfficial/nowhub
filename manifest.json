@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Nowhub",
+    "version": "1.0.0",
+    "description": "Anything that you want, on a click.",
+    "author": "(ing) Studios Web Labs",
+    "action": {
+      "default_popup": "index.html",
+      "default_title": "Nowhub",
+      "default_icon": "assets/Nowhub Favicon.png"
+    },
+    "permissions": [
+      "geolocation"
+    ],
+    "icons": {
+        "48": "assets/Nowhub Favicon.png"
+    }
+}

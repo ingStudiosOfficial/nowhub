@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nowhub</title>
+    <link rel="icon" type="image/x-icon" href="assets/Nowhub Favicon.ico">
+    <link href='style.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <h1>Nowhub</h1>
+    </header>
+    <div class="mainbody">
+        <h2>The current time is <span id="ct"></span> on <span id="cd"></span>.</h2>
+        <p>To kickstart your day, do you want me to:</p>
+        <div class="action-options">
+            <div class="action-cards" id="jokeButton">
+                <img src="assets/laugh.png" width="20%">
+                <p>Tell a joke</p>
+            </div>
+            <div class="action-cards" id="weatherButton">
+                <img src="assets/cloudy.png" width="20%">
+                <p>Tell me the weather</p>
+            </div>
+            <div class="action-cards" id="factButton">
+                <img src="assets/fun-fact.png" width="20%">
+                <p>Tell a random fact</p>
+            </div>
+            <div class="action-cards" id="gameButton">
+                <img src="assets/console.png" width="20%">
+                <p>Play minigames</p>
+            </div>
+        </div>
+        <br>
+        <div class="responsediv">
+            <p id="response"></p>
+        </div>
+        <br>
+        <div class="gsearch-div">
+            <input type="text" class="gsearch" placeholder="Search Google..." id="gsearch">
+            <br>
+            <button class="ask-button" id="gsearchButton">Search</button>
+        </div>
+        <br>
+        <h2>Change your mouse cursor</h2>
+        <input type="file" id="cursorFile" accept=".cur,.ani" class="cursor-input">
+        <button id="applyCursor" class="cursor-input">Apply Cursor</button>
+        <p>Please note that we only currently accept .cur or .ani files. If you want to convert your png to one of these files, click <a id="convertLink">here</a>.</p>
+    </div>
+    <footer>
+        <p>©2025 (ing) Studios Web Labs</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
